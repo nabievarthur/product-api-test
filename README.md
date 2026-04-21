@@ -1,5 +1,5 @@
 1. Устанавливаем лару.
-2. Создаем файл database.sqlite
+2. Создаем файл database.sqlite в папке database
 3. Создаем/Копируем файл .env
 4. генерим ключ php artisan key:generate
 5. Запускаем миграции с сидами php artisan migrate --seed
