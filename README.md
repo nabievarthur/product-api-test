@@ -1,4 +1,4 @@
-1. Устанавливаем лару.
+1. Устанавливаем лару composer install
 2. Создаем файл database.sqlite в папке database
 3. Создаем/Копируем файл .env
 4. генерим ключ php artisan key:generate
