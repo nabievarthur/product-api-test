@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "ebd963d1-f90b-4771-b597-d3e433b71bee",
+		"name": "product-api-test",
+		"description": "API Search prodict\n\nВо вкладке Variables установите свой host",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30456119"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host_name}}/api/products",
+					"host": [
+						"{{host_name}}"
+					],
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "en",
+							"disabled": true
+						},
+						{
+							"key": "price_from",
+							"value": "50",
+							"disabled": true
+						},
+						{
+							"key": "price_to",
+							"value": "55",
+							"disabled": true
+						},
+						{
+							"key": "category_id",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "in_stock",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "rating_from",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "sort",
+							"value": "price_asc",
+							"disabled": true
+						},
+						{
+							"key": "sort",
+							"value": "price_desc",
+							"disabled": true
+						},
+						{
+							"key": "sort",
+							"value": "rating_desc",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host_name",
+			"value": ""
+		}
+	]
+}
